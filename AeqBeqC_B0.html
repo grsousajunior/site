@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Noto Serif', serif; font-size: 1.0rem;}</style>
+	
+	<script>MathJax = {tex:{ inlineMath: [['$', '$'], ['\\(', '\\)']] } };</script>
+	
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <title>Titulo</title>
+  </head>
+  <body>
+	<div class="container">
+	  <div class="row">
+	  <div class="col-md-8">
+	    <p>Considere a seguinte reação consecutiva:</p>
+	    <p>$$\ce{A<=>[$k_1$][$k_2$]B<=>[$k_3$][$k_4$]C}$$</p>
+	    <p>
+$$\begin{align}
+\ce{[A]}&=\ce{[B]0}k_2\left[
+\dfrac{k_4}{\gamma_1\gamma_2} - 
+\dfrac{k_4-\gamma_1}{\gamma_1\left(\gamma_2+\gamma_1\right)}e^{-\gamma_1t} + 
+\dfrac{k_4-\gamma_2}{\gamma_2\left(\gamma_2+\gamma_1\right)}e^{-\gamma_2t}\right]\\
+\ce{[B]}&=\ce{[B]0}\left[
+\dfrac{k_1k_4}{\gamma_1\gamma_2} - 
+\dfrac{k_1k_4-\gamma_1\left(k_1+k_4\right)+\gamma_1^2}{\gamma_1\left(\gamma_2+\gamma_1\right)}e^{-\gamma_1t} + 
+\dfrac{k_1k_4-\gamma_2\left(k_1+k_4\right)+\gamma_1^2}{\gamma_2\left(\gamma_2+\gamma_1\right)}e^{-\gamma_2t}\right]\\
+\ce{[C]}&=\ce{[B]0}k_3\left[
+\dfrac{k_1}{\gamma_1\gamma_2} - 
+\dfrac{k_1-\gamma_1}{\gamma_1\left(\gamma_2+\gamma_1\right)}e^{-\gamma_1t} + 
+\dfrac{k_1-\gamma_2}{\gamma_2\left(\gamma_2+\gamma_1\right)}e^{-\gamma_2t}\right]\end{align}$$
+</p>
+	  </div>
+	  <div class="col-md-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.</div>
+	  </row>
+	</div>
+  </body>
+</html>
